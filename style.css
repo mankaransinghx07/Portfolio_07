@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(51, 51, 51);
+    width: 100vw;
+    height: 100vh;
+}
+
+.funcbar{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    color: rgb(210, 210, 210);
+    border-bottom: 1px solid rgb(102, 102, 102);
+    font-family: "Montserrat", serif;
+    font-weight: 620;
+}
+
+.funca{
+    display: flex;
+    align-items: center;
+    gap : 10px;
+}
+
+.fc1{
+    width: 17px;
+    height : 17px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #22c55e;
+}
+
+.fc2{
+    width: 17px;
+    height : 17px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #e5af08;
+}
+
+.fc3{
+    width: 17px;
+    height : 17px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background-color: #ef4444;
+}
+
+.cntcnt{
+    background-color: rgb(32, 32, 32);
+    height: 100vh;
+    overflow: auto;
+    scrollbar-color: rgb(51, 51, 51) rgb(102, 102, 102);
+}
+
+.container{
+    margin-top: 20px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap : 30px;
+    
+}
+
+.icon{
+    width: 60px;
+}
+
+.pfp{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.pfp:hover{
+    outline : solid 4px rgb(102, 102, 102);
+}
+
+.funcb{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icoc{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgb(32, 32, 32); 
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #d6c8a3;
+    font-family: "Montserrat", serif;
+    align-items: center;
+}
+
+.icoc>img:hover{
+    cursor: pointer;
+    scale : 1.1;
+    transition: 0.1s;
+}
+
+.contm{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    gap : 40px;
+}
+
+.taskb{
+    position: absolute ;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+    color: rgb(210, 210, 210);
+    border-top: 1px solid rgb(102, 102, 102);
+    background-color: rgb(51, 51, 51);
+    font-family: "Montserrat", serif;
+    font-weight: 620px;
+}
+
+.ta:hover{
+    cursor: pointer;
+    color: white;
+    transition: 0.1s;
+}
+
+.soc{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap : 10px;
+}
+
+.socials{
+    display: flex;
+    width: 40px;
+    background-color:rgb(51, 51, 51) ;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+}
+
+.socials>img:hover{
+    outline : solid 4px rgb(102, 102, 102);
+}
+
+.socials:hover{
+    background-color:rgb(210, 210, 210);
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.open{
+    text-decoration: dashed;
+}
+
+.soa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.soa>img{
+    width: 30px;
+}
